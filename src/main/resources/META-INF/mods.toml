@@ -5,7 +5,7 @@ loaderVersion="[31,)"
 [[mods]]
 modId="milkandroses"
 # meh hardcoded
-version="1.15.2-1.0.2"
+version="1.15.2-1.0.3"
 displayName="Milk and Roses"
 displayURL="http://milkycousin.pythonanywhere.com/"
 credits="MilkyCousin"

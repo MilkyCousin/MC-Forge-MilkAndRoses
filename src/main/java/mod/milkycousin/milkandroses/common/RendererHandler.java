@@ -3,6 +3,7 @@ package mod.milkycousin.milkandroses.common;
 import mod.milkycousin.milkandroses.ModEventSubscriber;
 import mod.milkycousin.milkandroses.client.renders.MilkyPenguinEntityRenderer;
 import mod.milkycousin.milkandroses.client.renders.SnowflakeEntityRenderer;
+import mod.milkycousin.milkandroses.common.entities.item.BulletEntity;
 import mod.milkycousin.milkandroses.common.entities.item.ThrownOrbEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.EntityRenderer;
@@ -31,6 +32,15 @@ public class RendererHandler
                 new IRenderFactory<ThrownOrbEntity>() {
                     @Override
                     public EntityRenderer<? super ThrownOrbEntity> createRenderFor(EntityRendererManager manager) {
+                        return new SpriteRenderer<>(manager, Minecraft.getInstance().getItemRenderer());
+                    }
+                }
+        );
+        RenderingRegistry.registerEntityRenderingHandler(
+                ModEventSubscriber.ModEntities.BULLET_ENTITY.get(),
+                new IRenderFactory<BulletEntity>() {
+                    @Override
+                    public EntityRenderer<? super BulletEntity> createRenderFor(EntityRendererManager manager) {
                         return new SpriteRenderer<>(manager, Minecraft.getInstance().getItemRenderer());
                     }
                 }

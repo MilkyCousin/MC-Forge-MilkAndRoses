@@ -25,7 +25,9 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.*;
 import net.minecraft.item.crafting.IRecipeSerializer;
+import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.EffectType;
 import net.minecraft.potion.Effects;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.ResourceLocation;
@@ -118,6 +120,12 @@ public final class ModEventSubscriber
         );
     }
 
+    public static final class ModEffects
+    {
+        static final DeferredRegister<Effect> EFFECTS = new DeferredRegister<>(ForgeRegistries.POTIONS, MilkAndRoses.MODID);
+
+    }
+
     public static final class ModItems
     {
         static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, MilkAndRoses.MODID);
@@ -196,8 +204,8 @@ public final class ModEventSubscriber
 
         public static final RegistryObject<Item> ROSE_AMULET = ITEMS.register("rose_amulet", () -> new Item(new Item.Properties().group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));
 
-        public static final RegistryObject<Item> QUEEN_OF_FIRE = ITEMS.register("queen_of_fire", () -> new QueenRangedItem(new Item.Properties().maxDamage(500).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 10, Items.MAGMA_BLOCK.getDefaultInstance(), new EffectInstance(Effects.SLOWNESS, 64, 4)));
-        public static final RegistryObject<Item> QUEEN_OF_ICE = ITEMS.register("queen_of_ice", () -> new QueenRangedItem(new Item.Properties().maxDamage(500).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 10, Items.ICE.getDefaultInstance(), new EffectInstance(Effects.SLOWNESS, 64, 4)));
+        public static final RegistryObject<Item> QUEEN_OF_FIRE = ITEMS.register("queen_of_fire", () -> new QueenRangedItem(new Item.Properties().maxDamage(500).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 10, Items.MAGMA_BLOCK.getDefaultInstance(), null)); // ModEffects.BURNING_EFFECT.get()
+        public static final RegistryObject<Item> QUEEN_OF_ICE = ITEMS.register("queen_of_ice", () -> new QueenRangedItem(new Item.Properties().maxDamage(500).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 10, Items.ICE.getDefaultInstance(), new EffectInstance(Effects.SLOWNESS, 128, 4)));
 
         // Shields
         public static final RegistryObject<Item> PENGUIN_SHIELD = ITEMS.register("penguin_shield", () -> new MilkyShield(new Item.Properties().maxDamage(1250).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));

@@ -40,7 +40,14 @@ public class BulletEntity extends SnowballEntity
             entity.attackEntityFrom(DamageSource.causeThrownDamage(this, this.getThrower()), RANGED_ATTACK);
             if(entity instanceof LivingEntity)
             {
-                ((LivingEntity)entity).addPotionEffect(POTION_EFFECT);
+                if(this.POTION_EFFECT != null)
+                {
+                    ((LivingEntity)entity).addPotionEffect(POTION_EFFECT);
+                }
+                else
+                {
+                    entity.setFire(8);
+                }
             }
         }
 

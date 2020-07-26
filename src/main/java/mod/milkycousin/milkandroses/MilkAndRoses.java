@@ -36,6 +36,7 @@ public class MilkAndRoses
 
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModEventSubscriber.ModEffects.EFFECTS.register(modEventBus);
         ModEventSubscriber.ModEntities.ENTITIES.register(modEventBus);
         ModEventSubscriber.ModBlocks.BLOCKS.register(modEventBus);
         ModEventSubscriber.ModItems.ITEMS.register(modEventBus);

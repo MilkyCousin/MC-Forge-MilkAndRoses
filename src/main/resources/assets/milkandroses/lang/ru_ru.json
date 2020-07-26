@@ -42,10 +42,12 @@
   "item.milkandroses.teleportation_scepter": "Скипетр Края",
   "item.milkandroses.rose_amulet": "Очаровательная Роза",
   "item.milkandroses.mineral_gem": "Минерал коренной породы",
+  "item.milkandroses.queen_of_fire": "Пламенная королева",
   "item.milkandroses.queen_of_ice": "Снежная королева",
   "block.milkandroses.alchemibench": "Верстак алхимика [WIP]",
   "block.milkandroses.onyx_ore": "Скопление оникса",
   "block.milkandroses.mineral_ore": "Скопление минералов",
   "block.milkandroses.purple_shard_ore": "Скопление чародейских кристаллов",
-  "entity.milkandroses.penguin": "Пингвин"
+  "entity.milkandroses.penguin": "Пингвин",
+  "effect.milkandroses.burning_effect": "Воспламенение"
 }

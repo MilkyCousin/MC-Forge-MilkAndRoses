@@ -42,10 +42,12 @@
   "item.milkandroses.teleportation_scepter": "Ender Scepter",
   "item.milkandroses.rose_amulet": "Lovely Rose [WIP]",
   "item.milkandroses.mineral_gem": "Bedrock Mineral",
+  "item.milkandroses.queen_of_fire": "Queen Of Fire",
   "item.milkandroses.queen_of_ice": "Queen Of Ice",
   "block.milkandroses.alchemibench": "Alchemist's Crafting Table [WIP]",
   "block.milkandroses.onyx_ore": "Onyx Ore",
   "block.milkandroses.mineral_ore": "Bedrock Mineral Ore",
   "block.milkandroses.purple_shard_ore": "Magic Shard Cluster",
-  "entity.milkandroses.penguin": "Penguin"
+  "entity.milkandroses.penguin": "Penguin",
+  "effect.milkandroses.burning_effect": "Burning"
 }
