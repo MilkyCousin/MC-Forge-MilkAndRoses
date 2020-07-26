@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ldl",
+    "wew",
+    "ldl"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:dragon_breath"
+    },
+    "e": {
+      "item": "minecraft:ender_eye"
+    },
+    "l": {
+      "item": "milkandroses:vessel_lava"
+    },
+    "w": {
+      "item": "minecraft:wither_rose"
+    }
+  },
+  "result": {
+    "item": "milkandroses:ender_particle",
+    "count": 4
+  }
+}

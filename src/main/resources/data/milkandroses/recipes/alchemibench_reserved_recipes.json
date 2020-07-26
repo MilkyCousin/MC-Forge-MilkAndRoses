@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zyz",
+    "yxy",
+    "zyz"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "y":
+    {
+      "item": "minecraft:sugar"
+    },
+    "z":
+    {
+      "item": "milkandroses:vessel_mana"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:ingot_magic",
+    "count": 1
+  }
+}

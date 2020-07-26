@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zxz",
+    "xyx",
+    "zxz"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "milkandroses:powder_weak_mana"
+    },
+    "y":
+    {
+      "item": "milkandroses:vessel_draconic_acid"
+    },
+    "z":
+    {
+      "item": "milkandroses:vessel_milk"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:powder_strong_mana",
+    "count": 4
+  }
+}

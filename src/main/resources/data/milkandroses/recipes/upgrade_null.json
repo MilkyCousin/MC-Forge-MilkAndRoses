@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bqb",
+    "qcq",
+    "bqb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "milkandroses:ingot_brass"
+    },
+    "c":
+    {
+      "item": "minecraft:chest"
+    },
+    "q":
+    {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:upgrade_null",
+    "count": 1
+  }
+}

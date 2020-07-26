@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "milkandroses:item/battle_item_3"
+  }
+}

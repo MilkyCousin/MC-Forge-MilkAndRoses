@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "mpm",
+    "rtg",
+    "msm"
+  ],
+  "key":
+  {
+    "r":
+    {
+      "item": "minecraft:redstone"
+    },
+    "g":
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    "p":
+    {
+      "item": "minecraft:gunpowder"
+    },
+    "s":
+    {
+      "item": "minecraft:sugar"
+    },
+    "t":
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    "m":
+    {
+      "item": "milkandroses:purple_shard"
+    }
+  },
+  "result": {
+    "item": "milkandroses:powder_weak_mana",
+    "count": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zyz",
+    "zxz",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "milkandroses:ender_particle"
+    },
+    "y":
+    {
+      "item": "milkandroses:awakened_penguin_gem"
+    },
+    "z":
+    {
+      "item": "milkandroses:draconic_stone"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:penguin_helmet",
+    "count": 1
+  }
+}

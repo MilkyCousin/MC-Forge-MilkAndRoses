@@ -1,0 +1,9 @@
+{
+  "penguin_ambient":
+  {
+    "category": "mob",
+    "sounds": [
+      "milkandroses:penguin_ambient"
+    ]
+  }
+}

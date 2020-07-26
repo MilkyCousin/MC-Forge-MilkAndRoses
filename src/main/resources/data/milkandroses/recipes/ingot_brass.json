@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bpb",
+    "pip",
+    "bpb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    "i":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "p":
+    {
+      "item": "milkandroses:powder_weak_mana"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:ingot_brass",
+    "count": 1
+  }
+}

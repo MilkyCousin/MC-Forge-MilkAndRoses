@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zyz",
+    "yxy",
+    "zyz"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "milkandroses:fire_gem"
+    },
+    "y":
+    {
+      "item": "milkandroses:water_gem"
+    },
+    "z":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:battle_item_1",
+    "count": 1
+  }
+}

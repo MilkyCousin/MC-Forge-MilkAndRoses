@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gcg",
+    "g g",
+    "ggg"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "minecraft:clay_ball"
+    },
+    "g":
+    {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:vessel_empty",
+    "count": 3
+  }
+}

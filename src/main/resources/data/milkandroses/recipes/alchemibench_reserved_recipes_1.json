@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zyz",
+    "yxy",
+    "zyz"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "milkandroses:battle_item_1"
+    },
+    "y":
+    {
+      "item": "milkandroses:milky_item"
+    },
+    "z":
+    {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:battle_item_2",
+    "count": 1
+  }
+}

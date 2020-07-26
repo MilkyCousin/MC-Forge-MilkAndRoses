@@ -1,0 +1,29 @@
+
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="milkandroses"
+# meh hardcoded
+version="1.15.2-1.0.2"
+displayName="Milk and Roses"
+displayURL="http://milkycousin.pythonanywhere.com/"
+credits="MilkyCousin"
+authors="MilkyCousin"
+description='''
+Adds penguins and basic magic-related stuff.
+'''
+
+[[dependencies.milkandroses]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.milkandroses]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

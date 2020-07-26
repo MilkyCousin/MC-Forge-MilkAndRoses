@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gmg",
+    "g g",
+    "gog"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "minecraft:glass"
+    },
+    "m":
+    {
+      "item": "milkandroses:ingot_magic"
+    },
+    "o":
+    {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:vessel_big_empty",
+    "count": 1
+  }
+}

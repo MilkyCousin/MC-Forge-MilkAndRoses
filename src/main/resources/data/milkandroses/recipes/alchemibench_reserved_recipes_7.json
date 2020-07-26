@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bzb",
+    "xyx",
+    "bbb"
+  ],
+  "key":
+  {
+    "y":
+    {
+      "item": "minecraft:ender_eye"
+    },
+    "b":
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    "x":
+    {
+      "item": "milkandroses:ender_particle"
+    },
+    "z":
+    {
+      "item": "milkandroses:draconic_stone"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:teleportation_eye",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bpb",
+    "bwb",
+    "bsb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "milkandroses:ingot_brass"
+    },
+    "p":
+    {
+      "item": "milkandroses:water_gem"
+    },
+    "s":
+    {
+      "item": "minecraft:brewing_stand"
+    },
+    "w":
+    {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:alchemibench",
+    "count": 1
+  }
+}

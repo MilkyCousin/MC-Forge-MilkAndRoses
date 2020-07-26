@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " za",
+    "zbz",
+    "yz "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "milkandroses:teleportation_eye"
+    },
+    "b":
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    "y":
+    {
+      "item": "milkandroses:awakened_penguin_gem"
+    },
+    "z":
+    {
+      "item": "milkandroses:draconic_stone"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:teleportation_scepter",
+    "count": 1
+  }
+}

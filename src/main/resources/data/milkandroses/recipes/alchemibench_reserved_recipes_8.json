@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xaz",
+    "zya",
+    "xzx"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "milkandroses:powder_strong_mana"
+    },
+    "x":
+    {
+      "item": "milkandroses:ender_particle"
+    },
+    "y":
+    {
+      "item": "milkandroses:awakened_penguin_gem"
+    },
+    "z":
+    {
+      "item": "milkandroses:draconic_stone"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:teleportation_tool",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+          [
+            "pdp",
+            "dxd",
+            "pdp"
+          ],
+  "key":
+  {
+    "x":
+    {
+      "item": "milkandroses:onyx_gem"
+    },
+    "p":
+    {
+      "item": "milkandroses:purple_shard"
+    },
+    "d":
+    {
+      "item": "milkandroses:draconic_stone"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:milky_item",
+    "count": 1
+  }
+}

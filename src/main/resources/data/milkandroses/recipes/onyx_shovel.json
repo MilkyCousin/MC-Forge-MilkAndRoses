@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_shovel"
+    },
+    {
+      "item": "milkandroses:upgrade_onyx"
+    }
+  ],
+  "result": {
+    "item": "milkandroses:onyx_shovel",
+    "count": 1
+  }
+}

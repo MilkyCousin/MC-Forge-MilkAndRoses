@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "mam",
+    "axa",
+    "mam"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:gems/diamond"
+    },
+    "a":
+    {
+      "item": "milkandroses:vessel_draconic_acid"
+    },
+    "m":
+    {
+      "item": "milkandroses:vessel_mana"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:draconic_stone",
+    "count": 1
+  }
+}

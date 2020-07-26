@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "mpm",
+    "pep",
+    "mpm"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "tag": "forge:gems/emerald"
+    },
+    "m":
+    {
+      "item": "milkandroses:powder_weak_mana"
+    },
+    "p":
+    {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:water_gem",
+    "count": 1
+  }
+}

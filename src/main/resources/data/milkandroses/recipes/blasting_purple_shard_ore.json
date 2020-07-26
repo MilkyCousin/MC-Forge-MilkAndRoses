@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "milkandroses:purple_shard_ore"
+  },
+  "result": "milkandroses:purple_shard",
+  "experience": 0.1,
+  "cookingtime": 100
+}

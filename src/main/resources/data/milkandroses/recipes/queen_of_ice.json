@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sig",
+    "gii",
+    "igs"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "milkandroses:mineral_gem"
+    },
+    "i":
+    {
+      "item": "minecraft:blue_ice"
+    },
+    "s":
+    {
+      "item": "milkandroses:powder_strong_mana"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:queen_of_ice",
+    "count": 1
+  }
+}

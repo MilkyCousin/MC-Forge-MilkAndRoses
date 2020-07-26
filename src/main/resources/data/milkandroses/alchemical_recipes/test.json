@@ -1,0 +1,22 @@
+{
+  "type": "milkandroses:alchemical_recipes",
+  "pattern":
+  [
+    "xxx",
+    " x ",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:glass"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:vessel_big_empty",
+    "count": 2
+  },
+  "cost": 16
+}

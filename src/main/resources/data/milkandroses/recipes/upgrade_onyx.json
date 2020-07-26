@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ooo",
+    "ono",
+    "ofo"
+  ],
+  "key":
+  {
+    "f":
+    {
+      "item": "milkandroses:fire_gem"
+    },
+    "n":
+    {
+      "item": "milkandroses:upgrade_null"
+    },
+    "o":
+    {
+      "item": "milkandroses:onyx_gem"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:upgrade_onyx",
+    "count": 1
+  }
+}

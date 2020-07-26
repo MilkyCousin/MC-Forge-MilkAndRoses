@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zyz",
+    "axa",
+    "zyz"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:nether_star"
+    },
+    "x":
+    {
+      "item": "milkandroses:battle_item_2"
+    },
+    "y":
+    {
+      "item": "milkandroses:awakened_penguin_gem"
+    },
+    "z":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:battle_item_3",
+    "count": 1
+  }
+}

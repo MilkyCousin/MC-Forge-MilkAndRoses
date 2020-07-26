@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "pvp",
+    "vpv",
+    "pvp"
+  ],
+  "key":
+  {
+    "p":
+    {
+      "item": "milkandroses:powder_weak_mana"
+    },
+    "v":
+    {
+      "item": "milkandroses:vessel_water"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:vessel_mana",
+    "count": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "vpv",
+    "vpv",
+    "vbv"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    "p":
+    {
+      "item": "milkandroses:milky_item"
+    },
+    "v":
+    {
+      "item": "milkandroses:ender_particle"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:milky_sword",
+    "count": 1
+  }
+}

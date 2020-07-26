@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " y ",
+    "xzx",
+    " y "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "milkandroses:draconic_stone"
+    },
+    "y":
+    {
+      "item": "milkandroses:awakened_penguin_gem"
+    },
+    "z":
+    {
+      "item": "minecraft:shield"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:penguin_shield",
+    "count": 1
+  }
+}

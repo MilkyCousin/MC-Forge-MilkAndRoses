@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "mtm",
+    "fef",
+    "mtm"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "tag": "forge:gems/emerald"
+    },
+    "f":
+    {
+      "item": "minecraft:fire_charge"
+    },
+    "m":
+    {
+      "item": "milkandroses:powder_weak_mana"
+    },
+    "t":
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result":
+  {
+    "item": "milkandroses:fire_gem",
+    "count": 1
+  }
+}
