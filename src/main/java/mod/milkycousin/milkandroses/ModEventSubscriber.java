@@ -20,6 +20,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.item.PaintingType;
 import net.minecraft.entity.merchant.villager.VillagerProfession;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.inventory.container.ContainerType;
@@ -192,6 +193,7 @@ public final class ModEventSubscriber
 
         // Tools
         public static final RegistryObject<Item> MILKY_SWORD = ITEMS.register("milky_sword", () -> new SwordItem(MilkyTier.PURPLE, 13, 0.5F, new Item.Properties().group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));
+        public static final RegistryObject<Item> STORM_SWORD = ITEMS.register("storm_sword", () -> new ItemStormSword(MilkyTier.MINERAL, 6, 1.5F, new Item.Properties().group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));
 
         public static final RegistryObject<Item> ONYX_AXE = ITEMS.register("onyx_axe", () -> new AxeItem(MilkyTier.ONYX, 6, 0.25F, new Item.Properties().group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));
         public static final RegistryObject<Item> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new PickaxeItem(MilkyTier.ONYX, 5, 0.25F, new Item.Properties().group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));
@@ -202,7 +204,7 @@ public final class ModEventSubscriber
         public static final RegistryObject<Item> YOYO_ADVANCED = ITEMS.register("battle_item_2", () -> new ItemBattleOrb(new Item.Properties().maxDamage(500).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 8.0F));
         public static final RegistryObject<Item> YOYO_MASTER = ITEMS.register("battle_item_3", () -> new ItemBattleOrb(new Item.Properties().maxDamage(750).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 12.0F));
 
-        public static final RegistryObject<Item> ROSE_AMULET = ITEMS.register("rose_amulet", () -> new Item(new Item.Properties().group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));
+        public static final RegistryObject<Item> ROSE_AMULET = ITEMS.register("rose_amulet", () -> new ItemBeautifulRose(new Item.Properties().maxDamage(10).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP)));
 
         public static final RegistryObject<Item> QUEEN_OF_FIRE = ITEMS.register("queen_of_fire", () -> new QueenRangedItem(new Item.Properties().maxDamage(500).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 10, Items.MAGMA_BLOCK.getDefaultInstance(), null)); // ModEffects.BURNING_EFFECT.get()
         public static final RegistryObject<Item> QUEEN_OF_ICE = ITEMS.register("queen_of_ice", () -> new QueenRangedItem(new Item.Properties().maxDamage(500).group(MilkAndRosesItemGroup.MILK_AND_ROSES_GROUP), 10, Items.ICE.getDefaultInstance(), new EffectInstance(Effects.SLOWNESS, 128, 4)));
@@ -235,6 +237,15 @@ public final class ModEventSubscriber
         static final DeferredRegister<Feature<?>> FEATURES = new DeferredRegister<>(ForgeRegistries.FEATURES, MilkAndRoses.MODID);
 
         //public static final RegistryObject<StructureEndTower> END_TALL_TOWER = FEATURES.register("end_tall_tower", () -> new StructureEndTower());
+    }
+
+    public static final class ModPaintings
+    {
+        static final DeferredRegister<PaintingType> PAINTINGS = new DeferredRegister<>(ForgeRegistries.PAINTING_TYPES, MilkAndRoses.MODID);
+
+        public static final RegistryObject<PaintingType> PAINTING_MATH = PAINTINGS.register("painting_math", () -> new PaintingType(96, 32));
+        public static final RegistryObject<PaintingType> PAINTING_PENGUIN = PAINTINGS.register("painting_penguin", () -> new PaintingType(32, 32));
+        public static final RegistryObject<PaintingType> PAINTING_PENGUIN_MATH = PAINTINGS.register("painting_penguin_math", () -> new PaintingType(32, 32));
     }
 
     @SubscribeEvent(priority = EventPriority.LOWEST)

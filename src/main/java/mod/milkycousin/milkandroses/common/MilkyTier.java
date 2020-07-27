@@ -12,6 +12,9 @@ public enum MilkyTier implements IItemTier
     PURPLE(3, 2049, 8.0F, 5.0F, 10, () -> {
         return Ingredient.fromItems(ModEventSubscriber.ModItems.MILKY_ITEM.get());
     }),
+    MINERAL(3, 1501, 24.0F, 3.0F, 20, () -> {
+        return Ingredient.fromItems(ModEventSubscriber.ModItems.BEDROCK_MINERAL.get());
+    }),
     ONYX(3, 3072, 32.0F, 1.0F, 10, () -> {
     return Ingredient.fromItems(ModEventSubscriber.ModItems.ONYX_GEM.get());
     });

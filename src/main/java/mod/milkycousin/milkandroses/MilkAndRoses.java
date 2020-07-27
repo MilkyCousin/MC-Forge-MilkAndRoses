@@ -43,6 +43,7 @@ public class MilkAndRoses
         ModEventSubscriber.ModContainers.CONTAINERS.register(modEventBus);
         ModEventSubscriber.ModTileEntities.TILE_ENTITIES.register(modEventBus);
         ModEventSubscriber.ModSerializers.SERIALIZER.register(modEventBus);
+        ModEventSubscriber.ModPaintings.PAINTINGS.register(modEventBus);
         ModEventSubscriber.Sounds.SOUNDS.register(modEventBus);
 
         modEventBus.addListener(this::commandsInit);
