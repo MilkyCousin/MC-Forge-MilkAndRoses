@@ -243,6 +243,9 @@ public final class ModEventSubscriber
     {
         static final DeferredRegister<PaintingType> PAINTINGS = new DeferredRegister<>(ForgeRegistries.PAINTING_TYPES, MilkAndRoses.MODID);
 
+        public static final RegistryObject<PaintingType> PAINTING_CARS = PAINTINGS.register("painting_cars", () -> new PaintingType(64, 32));
+        public static final RegistryObject<PaintingType> PAINTING_GOGH_STAR = PAINTINGS.register("painting_gogh_1", () -> new PaintingType(64, 32));
+        public static final RegistryObject<PaintingType> PAINTING_GOGH_CITY = PAINTINGS.register("painting_gogh_2", () -> new PaintingType(64, 32));
         public static final RegistryObject<PaintingType> PAINTING_MATH = PAINTINGS.register("painting_math", () -> new PaintingType(96, 32));
         public static final RegistryObject<PaintingType> PAINTING_PENGUIN = PAINTINGS.register("painting_penguin", () -> new PaintingType(32, 32));
         public static final RegistryObject<PaintingType> PAINTING_PENGUIN_MATH = PAINTINGS.register("painting_penguin_math", () -> new PaintingType(32, 32));
