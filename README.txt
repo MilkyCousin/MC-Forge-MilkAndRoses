@@ -1,1 +1,0 @@
-Currently I am lazy to write a comprehensive README
