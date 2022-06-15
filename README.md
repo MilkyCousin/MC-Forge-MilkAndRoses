@@ -1,4 +1,4 @@
-# Milk and Roses -- from this moment, milk is valuable [MC 1.15.2 / FORGE]
+# Milk and Roses - from this moment, milk is valuable
 
 Currently this description is not finished. Quick lookup: https://www.curseforge.com/minecraft/mc-mods/milk-and-roses
 
